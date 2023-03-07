@@ -18,31 +18,20 @@
         <div class="wrapper">
           <div class="card">
             <div class="card__background">
-              <picture>
-                <source
-                  srcset="
-                    ./src/assets/images/illustration-woman-online-mobile.svg
-                  "
-                  media="(max-width:676px)"
-                />
+              <picture class="card__woman">
                 <img
                   src="./src/assets/images/illustration-woman-online-desktop.svg"
                   alt="A woman with big monitor screen"
                   class="image"
                 />
               </picture>
-              <img
-                src="./src/assets/images/illustration-box-desktop.svg"
-                alt="Box"
-                class="image-box"
-              />
             </div>
             <div class="card__content">
               <p class="card__title">
                 <strong>FAQ</strong>
               </p>
               <div class="faq">
-                <div class="faq__item">
+                <div class="faq__item active">
                   <button
                     class="btn btn--faq"
                     aria-expanded="false"
@@ -179,6 +168,13 @@
                     </p>
                   </div>
                 </div>
+              </div>
+              <div class="card__box">
+                <img
+                  src="./src/assets/images/illustration-box-desktop.svg"
+                  alt="Box"
+                  class="image-box"
+                />
               </div>
             </div>
           </div>
