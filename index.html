@@ -13,7 +13,178 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main class="main">
+        <div class="wrapper">
+          <div class="card">
+            <div class="card__background">
+              <picture>
+                <source
+                  srcset="
+                    ./src/assets/images/illustration-woman-online-mobile.svg
+                  "
+                  media="(max-width:676px)"
+                />
+                <img
+                  src="./src/assets/images/illustration-woman-online-desktop.svg"
+                  alt="A woman with big monitor screen"
+                  class="image"
+                />
+              </picture>
+              <img
+                src="./src/assets/images/illustration-box-desktop.svg"
+                alt="Box"
+                class="image-box"
+              />
+            </div>
+            <div class="card__content">
+              <p class="card__title">
+                <strong>FAQ</strong>
+              </p>
+              <div class="faq">
+                <div class="faq__item">
+                  <button
+                    class="btn btn--faq"
+                    aria-expanded="false"
+                    id="buttonfaq1"
+                    aria-controls="faq1"
+                  >
+                    <span class="btn-title"
+                      >How many team members can I invite?</span
+                    >
+                    <img
+                      src="./src/assets/images/icon-arrow-down.svg"
+                      alt=""
+                      class="image-btn"
+                    />
+                  </button>
+                  <div
+                    class="faq__content"
+                    id="faq1"
+                    role="region"
+                    aria-labelledby="buttonfaq1"
+                  >
+                    <p class="faq__description">
+                      You can invite up to 2 additional users on the Free plan.
+                      There is no limit on team members for the Premium plan.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item">
+                  <button
+                    class="btn btn--faq"
+                    aria-expanded="false"
+                    id="buttonfaq2"
+                    aria-controls="faq2"
+                  >
+                    <span class="btn-title"
+                      >What is the maximum file upload size?</span
+                    >
+                    <img
+                      src="./src/assets/images/icon-arrow-down.svg"
+                      alt=""
+                      class="image-btn"
+                    />
+                  </button>
+                  <div
+                    class="faq__content"
+                    id="faq2"
+                    role="region"
+                    aria-labelledby="buttonfaq2"
+                  >
+                    <p class="faq__description">
+                      No more than 2GB. All files in your account must fit your
+                      allotted storage space.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item">
+                  <button
+                    class="btn btn--faq"
+                    aria-expanded="false"
+                    id="buttonfaq3"
+                    aria-controls="faq3"
+                  >
+                    <span class="btn-title">How do I reset my password?</span>
+                    <img
+                      src="./src/assets/images/icon-arrow-down.svg"
+                      alt=""
+                      class="image-btn"
+                    />
+                  </button>
+                  <div
+                    class="faq__content"
+                    id="faq3"
+                    role="region"
+                    aria-labelledby="buttonfaq3"
+                  >
+                    <p class="faq__description">
+                      Click “Forgot password” from the login page or “Change
+                      password” from your profile page. A reset link will be
+                      emailed to you.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item">
+                  <button
+                    class="btn btn--faq"
+                    aria-expanded="false"
+                    id="buttonfaq4"
+                    aria-controls="faq4"
+                  >
+                    <span class="btn-title">Can I cancel my subscription?</span>
+                    <img
+                      src="./src/assets/images/icon-arrow-down.svg"
+                      alt=""
+                      class="image-btn"
+                    />
+                  </button>
+                  <div
+                    class="faq__content"
+                    id="faq4"
+                    role="region"
+                    aria-labelledby="buttonfaq4"
+                  >
+                    <p class="faq__description">
+                      Yes! Send us a message and we’ll process your request no
+                      questions asked.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item">
+                  <button
+                    class="btn btn--faq"
+                    aria-expanded="false"
+                    id="buttonfaq5"
+                    aria-controls="faq5"
+                  >
+                    <span class="btn-title"
+                      >Do you provide additional support?</span
+                    >
+                    <img
+                      src="./src/assets/images/icon-arrow-down.svg"
+                      alt=""
+                      class="image-btn"
+                    />
+                  </button>
+                  <div
+                    class="faq__content"
+                    id="faq5"
+                    role="region"
+                    aria-labelledby="buttonfaq5"
+                  >
+                    <p class="faq__description">
+                      Chat and email support is available 24/7. Phone lines are
+                      open during normal business hours.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
