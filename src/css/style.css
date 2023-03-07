@@ -1,0 +1,22 @@
+:root {
+  --clr-primary-400: hsl(238, 29%, 16%);
+  --clr-primary-300: hsl(14, 88%, 65%);
+  --clr-gradient-400: hsl(273, 75%, 66%);
+  --clr-gradient-300: hsl(240, 73%, 65%);
+  --clr-neutral-400: hsl(240, 5%, 91%);
+  --clr-neutral-300: hsl(240, 6%, 50%);
+  --clr-neutral-200: hsl(237, 12%, 33%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+}
