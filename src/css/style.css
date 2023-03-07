@@ -135,6 +135,16 @@ body {
   gap: 2rem;
 }
 
+.btn-title {
+  pointer-events: none;
+
+  transition: all 0.3s;
+}
+
+.btn--faq:hover .btn-title {
+  color: var(--clr-primary-300);
+}
+
 .image-btn {
   margin-left: auto;
   pointer-events: none;
